@@ -45,12 +45,14 @@ Three components with equal weighting:
 - Physics loss: 0.031
 - Initial condition loss: 0.039
 - Initial condition accuracy: <5% error
+![Training Loss](results/loss_curve.png)
 
 The solution correctly reproduces:
 
 - Oscillatory motion with exponential decay
 - Damping-dependent behaviour (more damping → faster decay)
 - Proper initial conditions
+![PINN Solutions](results/solution_plot.png)
 ## Repository Structure
 
 ```
